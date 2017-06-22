@@ -24,7 +24,7 @@ var nodes = [{ "node": 1, "message": "Do you want a pet to love and care for?", 
              { "node": 5, "message": "Do you want to train your pet to do thing?", "yes": 7, "no": 8},
              { "node": 6, "message": "Do you want to watch your pet to do thing?", "yes": 1004, "no": 1005},
              { "node": 7, "message": "Do you want your pet to think of you as a slave?", "yes": 1002, "no": 1003},
-             { "node": 8, "message": "Do you want to watch your pet do thing?", "yes": 1001, "no": 1002},
+             { "node": 8, "message": "Do you own a zoo or large open field?", "yes": 1001, "no": 1002},
 
 // Answers & descriptions
              { "node": 1001, "message": "Kungfu Panda", "yes": 0, "no": 0, "description": "Kungfu Panda is a cute looking black and white chinese bear that serves two functions - eat Bamboo Shoots and Sleep." },
