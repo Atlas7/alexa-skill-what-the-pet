@@ -40,7 +40,7 @@ var visited;
 // These are messages that Alexa says to the user during conversation
 
 // This is the intial welcome message
-var welcomeMessage = "Welcome to decision tree, are you ready to play?";
+var welcomeMessage = "welcome to what the pet, are you ready to play?";
 
 // This is the message that is repeated if the response to the initial welcome message is not heard
 var repeatWelcomeMessage = "Say yes to start the game or no to quit.";
@@ -52,13 +52,13 @@ var promptToStartMessage = "Say yes to continue, or no to end the game.";
 var promptToSayYesNo = "Say yes or no to answer the question.";
 
 // This is the response to the user after the final question when Alex decides on what group choice the user should be given
-var decisionMessage = "I think you would make a good";
+var decisionMessage = "Your recommended pet is";
 
 // This is the prompt to ask the user if they would like to hear a short description of thier chosen profession or to play again
-var playAgainMessage = "Say 'tell me more' to hear a short description for this profession, or do you want to play again?";
+var playAgainMessage = "Say 'tell me more' to hear a short description for this amazing pet, or do you want to play again?";
 
 // this is the help message during the setup at the beginning of the game
-var helpMessage = "I will ask you some questions that will identify what you would be best at. Want to start now?";
+var helpMessage = "I will ask you some questions that will identify what your recommended pet is. Want to start now?";
 
 // This is the goodbye message when the user has asked to quit the game
 var goodbyeMessage = "Ok, see you next time!";
