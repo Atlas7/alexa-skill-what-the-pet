@@ -29,7 +29,7 @@ var nodes = [{ "node": 1, "message": "Do you want a pet to love and care for?", 
 // Answers & descriptions
              { "node": 1001, "message": "Kungfu Panda", "yes": 0, "no": 0, "description": "Kungfu Panda is a cute looking black and white chinese bear that serves two functions - eat Bamboo Shoots and Sleep." },
              { "node": 1002, "message": "Fluffy Cat", "yes": 0, "no": 0, "description": "A Fluffy Cat is an Egyption God who ocassionally plays hard to get. Highly self sufficient. Pet a cat and they go purr."},
-             { "node": 1003, "message": "Hairy Dog", "yes": 0, "no": 0, "description": "A Hairy Dog is the ultimate friend of a human. Descedent of wolfs. But with insane cutness and loyalty." },
+             { "node": 1003, "message": "Hairy Dog", "yes": 0, "no": 0, "description": "A Hairy Dog is the ultimate friend of a human. Descedent of wolfs. But with insane cuteness and loyalty." },
              { "node": 1004, "message": "Swimming Sushi", "yes": 0, "no": 0, "description": "Swimming Sushi. So called Fish. They keep those nasty mosquitoes down by eating their eggs. Yet I wonder if fish has thoughts?" },
              { "node": 1005, "message": "Ye Olde Rock", "yes": 0, "no": 0, "description": "Ye Olde Rock. The oldest element of Earth. Have one in your pocket to gain wisdom and enlightnment. Cannot go wrong with an Ye Olde Rock my friend." },
 ];
