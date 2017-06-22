@@ -17,14 +17,14 @@ var states = {
 
 
 // Questions
-var nodes = [{ "node": 1, "message": "Do you want a pet to love and care for?", "yes": , "no":  },
-             { "node": 2, "message": "Are you likely to forget your pet", "yes": , "no":  },
-             { "node": 3, "message": "Are you likely to forget for more than a week at a time?", "yes": , "no":  },
-             { "node": 4, "message": "Do you want a creature that returns your affection?", "yes": , "no":  },
-             { "node": 5, "message": "Do you want to train your pet to do thing?", "yes": , "no":  },
-             { "node": 6, "message": "Do you want to watch your pet to do thing?", "yes": , "no":  },
-             { "node": 7, "message": "Do you want your pet to think of you as a slave?", "yes": , "no":  },
-             { "node": 8, "message": "Do you want to watch your pet do thing?", "yes": , "no":  },
+var nodes = [{ "node": 1, "message": "Do you want a pet to love and care for?", "yes": 2, "no": 1005},
+             { "node": 2, "message": "Are you likely to forget your pet", "yes": 3, "no": 4},
+             { "node": 3, "message": "Are you likely to forget for more than a week at a time?", "yes": 1005, "no": 1004},
+             { "node": 4, "message": "Do you want a creature that returns your affection?", "yes": 5, "no": 6},
+             { "node": 5, "message": "Do you want to train your pet to do thing?", "yes": 7, "no": 8},
+             { "node": 6, "message": "Do you want to watch your pet to do thing?", "yes": 1004, "no": 1005},
+             { "node": 7, "message": "Do you want your pet to think of you as a slave?", "yes": 1002, "no": 1003},
+             { "node": 8, "message": "Do you want to watch your pet do thing?", "yes": 1001, "no": 1002},
 
 // Answers & descriptions
              { "node": 1001, "message": "Kungfu Panda", "yes": 0, "no": 0, "description": "Kungfu Panda is a cute looking black and white chinese bear that serves two functions - eat Bamboo Shoots and Sleep." },
