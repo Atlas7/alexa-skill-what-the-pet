@@ -17,23 +17,21 @@ var states = {
 
 
 // Questions
-var nodes = [{ "node": 1, "message": "Do you like working with people", "yes": 2, "no": 3 },
-             { "node": 2, "message": "Do you like caring for others", "yes": 4, "no": 5 },
-             { "node": 3, "message": "Would you like to work during the day", "yes": 6, "no": 7 },
-             { "node": 4, "message": "Can you stand the sight of blood", "yes": 8, "no": 9 },
-             { "node": 5, "message": "Is money the most important thing in your life", "yes": 10, "no": 11 },
-             { "node": 6, "message": "Do you want to work with animals", "yes": 12, "no": 13 },
-             { "node": 7, "message": "Are you active", "yes": 14, "no": 15 },
+var nodes = [{ "node": 1, "message": "Do you want a pet to love and care for?", "yes": , "no":  },
+             { "node": 2, "message": "Are you likely to forget your pet", "yes": , "no":  },
+             { "node": 3, "message": "Are you likely to forget for more than a week at a time?", "yes": , "no":  },
+             { "node": 4, "message": "Do you want a creature that returns your affection?", "yes": , "no":  },
+             { "node": 5, "message": "Do you want to train your pet to do thing?", "yes": , "no":  },
+             { "node": 6, "message": "Do you want to watch your pet to do thing?", "yes": , "no":  },
+             { "node": 7, "message": "Do you want your pet to think of you as a slave?", "yes": , "no":  },
+             { "node": 8, "message": "Do you want to watch your pet do thing?", "yes": , "no":  },
 
 // Answers & descriptions
-             { "node": 8, "message": "Doctor", "yes": 0, "no": 0, "description": "A physician or medical doctor is a professional who practices medicine." },
-             { "node": 9, "message": "Teacher", "yes": 0, "no": 0, "description": "In education, teachers facilitate student learning, often in a school or academy or perhaps in another environment such as outdoors."},
-             { "node": 10, "message": "Sales person", "yes": 0, "no": 0 , "description": "A salesman is someone who works in sales, with the main function of selling products or services to others."},
-             { "node": 11, "message": "Artist", "yes": 0, "no": 0 , "description": "An artist is a person engaged in one or more of any of a broad spectrum of activities related to creating art, practicing the arts, and, or demonstrating an art."},
-             { "node": 12, "message": "Zookeeper", "yes": 0, "no": 0 , "description": "A zookeeper is a person who manages zoo animals that are kept in captivity for conservation or to be displayed to the public, and are usually responsible for the feeding and daily care of the animals."},
-             { "node": 13, "message": "Software engineer", "yes": 0, "no": 0 , "description": "A software engineer is a person who applies the principles of software engineering to the design, development, maintenance, testing, and evaluation of the software and systems that make computers or anything containing software work."},
-             { "node": 14, "message": "Security Guard", "yes": 0, "no": 0 , "description": "A security guard is a private person who is paid to protect an organization's assets from various hazards such as criminal activity, by utilizing preventative measures. "},
-             { "node": 15, "message": "Lighthouse keeper", "yes": 0, "no": 0 , "description": "A lighthouse keeper is the person responsible for tending and caring for a lighthouse, particularly the light and lens in the days when oil lamps and clockwork mechanisms were used."},
+             { "node": 1001, "message": "Kungfu Panda", "yes": 0, "no": 0, "description": "Kungfu Panda is a cute looking black and white chinese bear that serves two functions - eat Bamboo Shoots and Sleep." },
+             { "node": 1002, "message": "Fluffy Cat", "yes": 0, "no": 0, "description": "A Fluffy Cat is an Egyption God who ocassionally plays hard to get. Highly self sufficient. Pet a cat and they go purr."},
+             { "node": 1003, "message": "Hairy Dog", "yes": 0, "no": 0, "description": "A Hairy Dog is the ultimate friend of a human. Descedent of wolfs. But with insane cutness and loyalty." },
+             { "node": 1004, "message": "Swimming Sushi", "yes": 0, "no": 0, "description": "Swimming Sushi. So called Fish. They keep those nasty mosquitoes down by eating their eggs. Yet I wonder if fish has thoughts?" },
+             { "node": 1005, "message": "Ye Olde Rock", "yes": 0, "no": 0, "description": "Ye Olde Rock. The oldest element of Earth. Have one in your pocket to gain wisdom and enlightnment. Cannot go wrong with an Ye Olde Rock my friend." },
 ];
 
 // this is used for keep track of visted nodes when we test for loops in the tree
